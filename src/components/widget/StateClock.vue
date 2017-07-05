@@ -64,7 +64,7 @@
 				error: 'getError'
 			}),
 			date() {
-				let date = new Date(this.curTabRankData.data.updateTime);
+				let date = new Date(this.curTabRankData.data.CNUpdateTime);
 				return `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`
 			}
 		}
